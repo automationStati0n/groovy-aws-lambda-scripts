@@ -1,3 +1,4 @@
+//cron(0 10-23 ? * * *) every hour from 10am to 11pm, 7 days a week
 @Grab(group='net.sourceforge.htmlunit', module='htmlunit', version='2.69.0')
 @Grab(group='com.sun.mail', module='javax.mail', version='1.6.2')
 
