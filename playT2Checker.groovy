@@ -29,8 +29,8 @@ try (final WebClient webClient = new WebClient(BrowserVersion.BEST_SUPPORTED)) {
     System.out.println(xml);
     def xmlParser = new XmlParser()
     def root = xmlParser.parseText(xml)
-
-    def numberOfPlayers = root.'**'.find { it.name() == 'strong' && it.@style == 'color:#0a9ba8;' }.text()
+    println root.dump()
+//    def numberOfPlayers = root.'**'.find { it.name() == 'strong' && it.@style.contains('color:#0a9ba8;') }.text()
 
     println "Number of players: $numberOfPlayers"
 }
