@@ -33,7 +33,6 @@
 //DEPS org.apache.groovy:groovy-typecheckers:+
 //DEPS org.apache.groovy:groovy-xml:+
 //DEPS org.apache.groovy:groovy-yaml:+
-//DEPS net.sourceforge.htmlunit:htmlunit:2.69.0
 
 import groovy.lang.GroovyShell;
 import java.io.FileInputStream;
